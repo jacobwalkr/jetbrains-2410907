@@ -1,0 +1,137 @@
+version: 1
+
+dn: uid=staff_ai,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: A Inister
+sn: Inister
+displayName: Adam Inister
+employeeType: staff
+givenName: Adam
+initials: AI
+mail: A.Inister@example.ac.uk
+ou: COM
+uid: staff_ai
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
+
+dn: uid=student_mg,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: M Graham
+sn: Graham
+displayName: Matt Graham
+employeeType: student
+givenName: Matt
+initials: MG
+mail: MGraham1@example.ac.uk
+ou: COM
+uid: student_mg
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
+
+dn: uid=student_jb,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: J Bloggs
+sn: Bloggs
+displayName: Joe Bloggs
+employeeType: student
+givenName: Joe
+initials: JB
+mail: JBloggs17@example.ac.uk
+ou: COM
+uid: student_jb
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
+
+dn: uid=staff_pe,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: P Essor
+sn: Essor
+displayName: Prof Essor
+employeeType: associate
+givenName: Prof
+initials: PE
+mail: Prof.Essor@example.ac.uk
+ou: COM
+uid: staff_pe
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
+
+# no employeeType
+dn: uid=staff_ns,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: N Starter
+sn: Starter
+displayName: Neil Starter
+givenName: Neil
+initials: NS
+mail: Neil.Starter@example.ac.uk
+ou: COM
+uid: staff_ns
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
+
+dn: uid=student_sd,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: S Dent
+sn: Dent
+displayName: Stuart Dent
+employeeType: student
+givenName: Stuart
+initials: SD
+mail: SDent1@example.ac.uk
+ou: COM
+uid: student_sd
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
+
+dn: uid=staff_spv,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: S P Vizer
+sn: Vizer
+displayName: Sue P Vizer
+employeeType: staff
+givenName: Susan
+initials: SPV
+mail: S.P.Vizer@example.ac.uk
+ou: COM
+uid: staff_spv
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
+
+dn: uid=outside_user,ou=system
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: O User
+sn: User
+displayName: Out Side User
+employeeType: student
+givenName: Out
+initials: OSU
+mail: o.s.user@example.ac.uk
+ou: DEN
+uid: outside_user
+userPassword:: e1NTSEF9T3ZMYkt3bzlCVW5IdzhZc2p0ajBzMmFrcUc4RzlEdEdBaldKZWc9P
+ Q==
