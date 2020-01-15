@@ -10,7 +10,7 @@ services:
     depends_on:
       - "database"
       - "ldap"
-      - "cas"
+#      - "cas"
     environment:
       - MYSQL_HOST=database
       - MYSQL_ROOT_PASSWORD=root
@@ -24,17 +24,17 @@ services:
     volumes:
       - .:/app
 
-  cas:
-    build:
-      context: http://dcsgitlab.shef.ac.uk/forks/rbcas-casinoapp-docker.git
-    depends_on:
-      - "ldap"
-    environment:
-      - LDAP_HOST=ldap
-    networks:
-      - bridge
-    ports:
-      - "8181:8181"
+#  cas:
+#    build:
+#      context: http://dcsgitlab.shef.ac.uk/forks/rbcas-casinoapp-docker.git
+#    depends_on:
+#      - "ldap"
+#    environment:
+#      - LDAP_HOST=ldap
+#    networks:
+#      - bridge
+#    ports:
+#      - "8181:8181"
 
   database:
     environment:
